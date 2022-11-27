@@ -4,6 +4,12 @@
       }
   }
 
+  @media screen and (max-width: 499px) {
+    .home-card {
+        flex-direction: column;
+    }
+}
+
 
   @media screen and (min-width: 650px) {
     .home-card {
