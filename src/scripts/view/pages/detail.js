@@ -1,6 +1,6 @@
 const Detail = {
-    async render() {
-        return `
+  async render() {
+    return `
         <h2>Detail Page</h2>
         <div class="container" style="display: flex">
           
@@ -41,11 +41,11 @@ const Detail = {
           </div>
           </div>
       `;
-    },
+  },
 
-    async afterRender() {
-        // Fungsi ini akan dipanggil setelah render()
-    },
+  async afterRender() {
+    // Fungsi ini akan dipanggil setelah render()
+  },
 };
 
 export default Detail;
