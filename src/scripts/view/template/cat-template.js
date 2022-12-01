@@ -9,15 +9,6 @@ const createCatTemp1 = `
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="card cat-card-2">
-                  <div class="card-body">
-                    <h5 class="card-title">Lingkungan</h5>
-                    <p class="card-text cat-title">Dengan lingkungan yang tepat kucing akan merasa nyaman, oleh karena itu pemilik harus menyediakann segala kebutuhannya, halaman berikut berisi panduan berupa tempat yang cocok, dan lain sebagainya. Memelihara kucing tidak hanya sekedar memberi makan tetapi juga menjaga lingkungannya.</p>
-                    <a href="#" class="btn btn-primary">Detail Selengkapnya...</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
                 <div class="card cat-card-3">
                   <div class="card-body">
                     <h5 class="card-title">Jenis</h5>
@@ -29,5 +20,3 @@ const createCatTemp1 = `
 `;
 
 export default createCatTemp1;
-
-
