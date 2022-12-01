@@ -1,38 +1,38 @@
-import createCatTypeTemplaye from "../template/cat-type-template";
-import DataSource from "../../globals/data-source";
+/* eslint-disable no-undef */
+/* eslint-disable no-use-before-define */
+import DataSource from '../../globals/data-source';
 import '../../component/cat-search';
 import '../../component/cat-list';
 
 const catType = {
-    async render() {
-      return `
+  async render() {
+    return `
       <cat-search></cat-search>
       <cat-list></cat-list>
       `;
-    },
-  
-    async afterRender() {
-      const searchElement = document.querySelector('cat-search');
-      const catListElement = document.querySelector('cat-list');
+  },
 
-      const onButtonSearchClicked = () => {
-        DataSource.searchCat(searchElement.value)
-          .then(renderResult)
-          .catch(fallbackResult);
-      };
+  async afterRender() {
+    const searchElement = document.querySelector('cat-search');
+    const catListElement = document.querySelector('cat-list');
 
-      const renderResult = (results) => {
-        catListElement.cats = results;
-      };
+    const onButtonSearchClicked = () => {
+      DataSource.searchCat(searchElement.value)
+        .then(renderResult)
+        .catch(fallbackResult);
+    };
 
-      const fallbackResult = (message) => {
-        console.log(message);
-        catListElement.appendChild(renderError(message));
-      };
+    const renderResult = (results) => {
+      catListElement.cats = results;
+    };
 
-      searchElement.clickEvent = onButtonSearchClicked;
-    },
-  };
-  
-  export default catType;
-  
+    const fallbackResult = (message) => {
+      console.log(message);
+      catListElement.appendChild(renderError(message));
+    };
+
+    searchElement.clickEvent = onButtonSearchClicked;
+  },
+};
+
+export default catType;
