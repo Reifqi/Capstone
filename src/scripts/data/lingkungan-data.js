@@ -19,7 +19,7 @@ const dataLing = [
       },
     ],
     ideal_suhu: 'Secara umum, Anda harus menyetel termostat antara 23 dan 25 derajat saat Anda berada di rumah pada musim panas. Jika Anda memiliki anjing besar berbulu panjang, seperti Husky atau Samoyed, suhu sekitar 23 derajat mungkin yang terbaik. Jika Anda memiliki kucing tua berambut pendek, 25 derajat lebih disukai.Rencanakan untuk menyetel termostat antara 20 dan 22 derajat saat Anda berada di rumah pada musim dingin. Hewan besar dengan bulu tebal cenderung menyukai suhu di ujung bawah spektrum ini, sementara Anda mungkin ingin menyetel termostat lebih tinggi untuk kucing atau anak anjing Anda yang tidak berbulu.',
-    credit: 'April 05, 2018 By Aire Serv',
+    createAt: 'April 05, 2018 By Aire Serv',
     img: '../images/cat-lingkungan.jpg',
   },
 ];
