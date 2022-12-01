@@ -1,0 +1,30 @@
+.about-card {
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    margin: 3rem;
+    justify-content: center;
+}
+
+.home-card-text {
+    text-align: justify;
+}
+
+.home-text {
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.home-img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
