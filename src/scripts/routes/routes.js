@@ -4,6 +4,7 @@ import Cat from '../view/pages/cat';
 import Dog from '../view/pages/dog';
 import Lingkungan from '../view/pages/lingkungan';
 import catHealth from '../view/pages/catHealth';
+import catType from '../view/pages/catType';
 
 const routes = {
   '/': Home, // default page
@@ -13,6 +14,7 @@ const routes = {
   '/cathealth': catHealth,
   '/detail/:id': Detail,
   '/lingkungan': Lingkungan,
+  '/cattype': catType,
 };
 
 export default routes;
