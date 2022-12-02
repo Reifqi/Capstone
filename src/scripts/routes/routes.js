@@ -6,6 +6,8 @@ import About from '../view/pages/about';
 import Lingkungan from '../view/pages/lingkungan';
 import catHealth from '../view/pages/catHealth';
 import catType from '../view/pages/catType';
+import dogHealth from '../view/pages/dogHealth';
+import dogType from '../view/pages/dogType';
 
 const routes = {
   '/': Home, // default page
@@ -13,10 +15,12 @@ const routes = {
   '/dog': Dog,
   '/cat': Cat,
   '/cathealth': catHealth,
+  '/doghealth': dogHealth,
   '/detail/:id': Detail,
   '/about': About,
   '/lingkungan': Lingkungan,
   '/cattype': catType,
+  '/dogtype': dogType,
 };
 
 export default routes;
