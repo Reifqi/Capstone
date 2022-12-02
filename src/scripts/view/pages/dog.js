@@ -1,12 +1,24 @@
+import dataDog from '../../data/dog-data';
+import createCatTemp1 from '../template/dog-template';
+
 const Dog = {
   async render() {
     return `
-            <h2>Dog Page</h2>
-          `;
+          <div class="row dog-page">
+            <div class="card mb-3">
+              <img src="../images/dog.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-title">Anjing</h1>
+                <p class="card-text">Anjing adalah salah satu binatang peliharaan yang diminati, untuk merawatnya dibutuhkan pengetahuan serta panduan yang benar agar anjing bisa hidup lebih lama dan terhindar dari penyakit.</p>
+              </div>
+            </div>
+          </div>
+        `;
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+    const catContainer = document.querySelector('.dog-page');
+    catContainer.innerHTML += createCatTemp1;
   },
 };
 
