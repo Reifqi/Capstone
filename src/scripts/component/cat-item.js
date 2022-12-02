@@ -1,8 +1,7 @@
-
 class CatItem extends HTMLElement {
   constructor() {
     super();
-    this.shadowDOM = this.attachShadow({ mode: "open" });
+    this.shadowDOM = this.attachShadow({ mode: 'open' });
   }
 
   set cat(cat) {
@@ -62,4 +61,4 @@ class CatItem extends HTMLElement {
             `;
   }
 }
-customElements.define("cat-item", CatItem);
+customElements.define('cat-item', CatItem);

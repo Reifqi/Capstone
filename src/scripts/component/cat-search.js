@@ -41,8 +41,12 @@ class CatSearch extends HTMLElement {
         .cat-search button{
             height: fit-content;
             padding: 10px;
-            background-color: #647E68;
+            background-color: #0d6efd;
             border-radius: 10px;
+        }
+
+        button:hover{
+          background-color: #fff;
         }
         
         @media screen and (max-width: 1000px) {
