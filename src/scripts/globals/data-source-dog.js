@@ -1,7 +1,7 @@
 /* eslint-disable prefer-promise-reject-errors */
 class DataSource {
-  static searchCat(name) {
-    return fetch(`https://api.api-ninjas.com/v1/cats?name=${name}`, {
+  static searchDog(name) {
+    return fetch(`https://api.api-ninjas.com/v1/dogs?name=${name}`, {
       headers: {
         'x-api-key': 'uM1wOLi/oHua9DCIqS9w9Q==7BXf693NIAcBavA5',
       },
