@@ -1,12 +1,15 @@
+import createCatHealthTemp from '../template/cat-health-template';
+
 const catHealth = {
   async render() {
     return `
-          <h2>Health Page(Cat)</h2>
-        `;
+    <div class='cat-health-page'></div>
+   `;
   },
 
-  afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+  async afterRender() {
+    const catHealthContainer = document.querySelector('.cat-health-page');
+    catHealthContainer.innerHTML += createCatHealthTemp;
   },
 };
 

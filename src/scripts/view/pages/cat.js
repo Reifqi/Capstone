@@ -1,5 +1,5 @@
-import catData from "../../data/cat-data";
-import createCatTemp1 from "../template/cat-template";
+import catData from '../../data/cat-data';
+import createCatTemp1 from '../template/cat-template';
 
 const Cat = {
   async render() {
