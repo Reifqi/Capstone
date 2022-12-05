@@ -13,8 +13,8 @@ const dataDog = [
     desc_sub4: 'Tidak hanya pada anjing kecil, semua anjing akan baik nafsu makannya jika kondisinya sehat. untuk itu penting untuk selalu melakukan pemeriksaan kesehatan anjing anda, minimal 6 bulan sekali.',
     sub_title_5: 'Tips Agar Anjing Kecil Kamu Selalu Sehat',
     desc_sub5: 'berikan makanan dengan nutrisi terbaik, berikan ukuran makanan yang tepat, hindari berikan makanan manusia, perhatikan higinienitas makanan yang diberikan',
-
     createAt: 'Oktober 22, 2022 by HEWANIA',
+    img: '../images/pict-dog-1.jpg',
   },
   {
     id: 2,
@@ -32,23 +32,7 @@ const dataDog = [
     desc_sub5: 'Sebelum kamu berniat membiakkan anjing kamu, bawalah dia ke dokter hewan untuk pemeriksaan pranatal. Kamu juga harus memberikan informasi yang up to date soal vaksinasi.Saat pemeriksaan ini, dokter hewan mungkin membutuhkan pemeriksaan tinja untuk memeriksa parasit usus. Atau di sisi lain mungkin dokter hewan akan hanya memberi obat cacing pada anjing sebelum kawin.Selain itu, kamu juga harus berkonsultasi dengan dokter hewan tentang apa yang harus dilakukan untuk membiakan anjing. ',
     createAt: 'November 11 2022 by HEWANIA',
     sumber: 'https://hewania.com/anjing-hamil/10480/',
-  },
-  {
-    id: 3,
-    title: 'Cara Merawat agar Bulu Anjing Tidak Mudah Rontok',
-    opening: 'Ada banyak faktor pemicu yang bisa menyebabkan kerontokan pada bulu anjing. Contohnya akibat alergi, stress, hormonal, jamur, parasit, hingga serangan bakteri. Jika kamu melihat kerontokan bulu anjing peliharaan semakin parah, segera temui dokter hewan untuk mendapatkan penanganan yang tepat.Pertanyaannya, bagaimana cara merawat bulu anjing agar tidak mudah rontok? ',
-    sub_title_1: 'Sikat atau Sisir Secara Teratur',
-    desc_sub1: 'Meskipun kamu tidak dapat menghentikan kerontokan normal pada bulu anjing (anjing yang sehat sekalipun), tapi kamu dapat mengurangi jumlah bulu-bulu yang rontok.Menurut ahli, menyikat atau menyisir bulu anjing menjadi salah satu cara merawat bulu anjing agar tidak mudah rontok. Cobalah tanyakan pada dokter hewan mengenai jenis sikat atau sisir yang cocok untuk jenis bulu anjing.',
-    sub_title_2: 'Berikan Asupan Nutrisi yang Tepat',
-    desc_sub2: 'Cara merawat bulu anjing agar tidak mudah rontok juga bisa melalui asupan makanan yang bergizi. Ingat, bulu anjing memerlukan berbagai vitamin dan nutrisi agar tubuh dengan baik dan tak mudah rontok. Cobalah berikan anjing makanan yang berkualitas dan bergizi untuk memenuhi asupan nutrisinya. ',
-    sub_title_3: 'Mandikan Secara Teratur',
-    desc_sub3: 'Gunakanlah sampo dan kondisioner khusus untuk deshedding. Produk-produk khusus anjing ini membantu melembapkan kulit dan bulunya sehingga lebih sehat, lebih kuat, dan mengurangi kemungkinan untuk rontok.Ingat, jangan sekali-kali menggunakan produk pembersih manusia pada bulu anjing. Pada beberapa kasus, produk-produk tersebut bisa menyebabkan kulit kering, bersisik, iritasi, dan memberikan tampilan bulu yang kusam.',
-    sub_title_4: 'Jaga Anjing dari Stres',
-    desc_sub4: 'Bukan cuma manusia saja yang akan mengalami keluhan fisik ketika dilanda stres. Pasalnya, anjing yang mengalami stres juga akan mengalami masalah fisik, contohnya kerontokan pada bulu-bulunya. Banyak hal yang bisa kamu lakukan untuk membuat anjing agar tidak stres.Contohnya menciptakan interaksi dan meluangkan waktu untuk bermain dengan dirinya. Bisa juga dengan membuat suasana atau lingkungan yang nyaman untuknya, atau memijatnya secara teratur. ',
-    sub_title_5: 'Temui Dokter Hewan',
-    desc_sub5: 'Apabila cara-cara di atas tidak cukup membantu, bawalah anjingmu ke dokter hewan untuk diperiksa. Pemeriksaan rutin oleh dokter hewan dapat membantu mendiagnosis masalah pada anjing. Kerontokan bulu tersebut bisa disebabkan oleh suatu kondisi atau penyakit tertentu.',
-    createAt: 'Redaksi Halodoc 27 November 2020',
-    sumber: 'https://www.halodoc.com/artikel/5-cara-merawat-agar-bulu-anjing-tidak-mudah-rontok',
+    img: '../images/pict-dog-2.jpg',
   },
   {
     id: 3,
@@ -66,6 +50,7 @@ const dataDog = [
     desc_sub5: 'Untuk menjaga fisik mereka agar tetap bugar, selalu ajak mereka olahraga ringan setiap hari. Kamu bisa mengajak mereka berjalan-jalan biasa. Penting agar selalu memberi mereka hadiah ketika mereka berperilaku baik. Jangan menghukum mereka ketika anjing ini melakukan hal yang negatif.Karena sifatnya yang cerdas, tibetan mastiff dapat belajar dengan mudah hanya dengan cara melihat dan mengobservasi lingkungan. Jadi, bersikap positif dan sabar bisa membantu kamu untuk melatih mereka dengan baik.',
     createAt: 'Oktober 12, 2022 by HEWANIA',
     sumber: 'https://hewania.com/tibetan-mastiff/10014/',
+    img: '../images/pict-dog-3.jpg',
   },
   {
     id: 4,
@@ -83,6 +68,7 @@ const dataDog = [
     desc_sub5: 'Ketika anjing merasakan rasa sakit pada tubuhnya, mereka juga bisa jadi mengekspresikannya dengan melolong. Lolongan ini juga bisa jadi sebagai sinyal untuk meminta pertolongan dari tuannya.',
     createAt: 'Oktober 4, 2022by HEWANIA',
     sumber: 'https://hewania.com/kenapa-anjing-melolong-seperti-serigala/9913/',
+    img: '../images/pict-dog-4.jpg',
   },
   {
     id: 5,
@@ -100,6 +86,7 @@ const dataDog = [
     desc_sub5: 'Jenis anjing husky termasuk dalam kategori anjing yang mudah kabur dan pintar dalam mencari celah. Bahkan, ada beberapa kasus husky yang mampu menggali tanah dan langsung kabur begitu saja.Untuk menjaga anjing milikmu tidak kabur, kamu harus memperhatikan kandangnya kembali secara menyeluruh sehingga apabila kondisi kandang kamu tidak baik, lebih baik untuk segera memperbaikinya serta pastikan semuanya tertutup dengan baik dan sudah sesuai dengan kebutuhannya.Tidak lupa juga untuk mengajarkan anjing kamu bersosialisasi, karena ini akan membentuknya lebih memahami lingkungan sekitar.',
     createAt: ' 12 Juli 2021',
     sumber: 'https://petpintar.com/anjing/cara-merawat-anjing-husky',
+    img: '../images/pict-dog-5.jpg',
   },
 ];
 
