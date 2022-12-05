@@ -4,7 +4,7 @@ ${dataLing.map((data) => `
         <img class="post-item__thumbnail"
             src="${data.img}"
         <div class="post-item__content">
-            <h1 class="post-item__title">${data.title}</h1>
+            <h1 class="post-item__title"><a href='${`/#detail/${data.id}`}'>${data.title}</a></h1>
             <p class="post-item__date">${data.createAt}</p>
             <p class="post-item__description">${data.opening}</p>
         </div>
