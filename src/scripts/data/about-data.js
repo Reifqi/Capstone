@@ -4,7 +4,7 @@ const aboutData = [
     nama: 'Pungky Bintang Alamsyach',
     asal: 'Juwana, Pati, Jawa Tengah',
     description: 'Perkenalkan nama saya Pungky saya adalah mahasiswa aktif semester 5 di Universitas Muhammadiyah Surakarta jurusan Informatika',
-    image: './images/about-img1.png',
+    image: './images/dog.jpg',
     href: '#/cat',
   },
   {
@@ -12,7 +12,7 @@ const aboutData = [
     nama: 'Pungky Bintang Alamsyach',
     asal: 'Juwana, Pati, Jawa Tengah',
     description: 'Perkenalkan nama saya Pungky saya adalah mahasiswa aktif semester 5 di Universitas Muhammadiyah Surakarta jurusan Informatika',
-    image: './images/about-img1.png',
+    image: './images/dog.jpg',
     href: '#/cat',
   },
   {
@@ -20,7 +20,7 @@ const aboutData = [
     nama: 'Pungky Bintang Alamsyach',
     asal: 'Juwana, Pati, Jawa Tengah',
     description: 'Perkenalkan nama saya Pungky saya adalah mahasiswa aktif semester 5 di Universitas Muhammadiyah Surakarta jurusan Informatika',
-    image: './images/about-img1.png',
+    image: './images/dog.jpg',
     href: '#/cat',
   },
   {
@@ -28,7 +28,7 @@ const aboutData = [
     nama: 'Pungky Bintang Alamsyach',
     asal: 'Juwana, Pati, Jawa Tengah',
     description: 'Perkenalkan nama saya Pungky saya adalah mahasiswa aktif semester 5 di Universitas Muhammadiyah Surakarta jurusan Informatika',
-    image: './images/about-img1.png',
+    image: './images/dog.jpg',
     href: '#/cat',
   },
 
