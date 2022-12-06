@@ -8,6 +8,7 @@ import catHealth from '../view/pages/catHealth';
 import catType from '../view/pages/catType';
 import dogHealth from '../view/pages/dogHealth';
 import dogType from '../view/pages/dogType';
+import FeedBack from '../view/pages/feedback';
 
 const routes = {
   '/': Home, // default page
@@ -21,6 +22,7 @@ const routes = {
   '/lingkungan': Lingkungan,
   '/cattype': catType,
   '/dogtype': dogType,
+  '/feedback': FeedBack,
 };
 
 export default routes;

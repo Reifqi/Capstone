@@ -1,14 +1,14 @@
 /* eslint-disable no-empty-function */
-
 const Detail = {
   async render() {
     return `
         <h2>Detail Page</h2>
-        <div class='detail'></div>
+        <div class='detail-page'></div>
       `;
   },
 
   async afterRender() {
+
   },
 };
 
