@@ -9,7 +9,7 @@
   }
   
   .latest__label {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: lighter;
   }
   
@@ -28,7 +28,7 @@
     margin: 32px auto auto;
     text-align: left;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin: 3rem;
     justify-content: center;
@@ -43,6 +43,7 @@
     width: 50%;
     border-radius: 5px;
     overflow: hidden;
+    margin: 10px;
   }
   
   .post-item__content {
@@ -84,4 +85,6 @@
     margin-top: 16px;
     font-size: 18px;
     line-height: 1.5em;
+    text-align: justify;
+    text-indent: 0.5in;
   }

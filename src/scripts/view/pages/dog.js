@@ -1,12 +1,11 @@
-import dataDog from '../../data/dog-data';
-import createCatTemp1 from '../template/dog-template';
+import createDogTemp1 from '../template/dog-template';
 
 const Dog = {
   async render() {
     return `
           <div class="row dog-page">
             <div class="card mb-3">
-              <img src="../images/dog.jpg" class="card-img-top" alt="...">
+              <img src="../images/dog-type.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h1 class="card-title">Anjing</h1>
                 <p class="card-text">Anjing adalah salah satu binatang peliharaan yang diminati, untuk merawatnya dibutuhkan pengetahuan serta panduan yang benar agar anjing bisa hidup lebih lama dan terhindar dari penyakit.</p>
@@ -18,7 +17,7 @@ const Dog = {
 
   async afterRender() {
     const catContainer = document.querySelector('.dog-page');
-    catContainer.innerHTML += createCatTemp1;
+    catContainer.innerHTML += createDogTemp1;
   },
 };
 

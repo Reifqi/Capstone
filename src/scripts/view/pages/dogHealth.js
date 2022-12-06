@@ -5,7 +5,7 @@ const dogHealth = {
         `;
   },
 
-  afterRender() {
+  async afterRender() {
     // Fungsi ini akan dipanggil setelah render()
   },
 };
