@@ -2,11 +2,11 @@ import createLingPage from '../template/lingkungan-template';
 import dataLing from '../../data/lingkungan-data';
 
 const Lingkungan = {
-  render() {
+  async render() {
     return `
     <div class="latest">
-      <h1 class="latest__label">Perhatikan Lingkungan Sekitar Untuk Hewan Anda</h1>
-      <div class="posts"></div>
+        <h1 class="latest__label">Perhatikan Lingkungan Sekitar Untuk Hewan Anda</h1>
+        <div class="posts"></div>
     </div>
         `;
   },
