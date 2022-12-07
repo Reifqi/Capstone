@@ -5,8 +5,8 @@ const Lingkungan = {
   render() {
     return `
     <div class="latest">
-      <h1 class="latest__label">Perhatikan Lingkungan Sekitar Untuk Hewan Anda</h1>
-      <div class="posts"></div>
+        <h1 class="latest__label">Perhatikan Lingkungan Sekitar Untuk Hewan Anda</h1>
+        <div class="posts"></div>
     </div>
         `;
   },

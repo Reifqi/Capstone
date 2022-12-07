@@ -51,7 +51,7 @@ const dataCatHealth = [
     desc_sub5: 'Sebagian besar obat anti diare tidak boleh digunakan pada kucing tanpa pengawasan dokter hewan. Beberapa diantaranya bahkan sangat berbahaya, tetapi obat kaolin-pektin dapat digunakan dengan aman pada kucing. Instruksi pemberian dosis sekitar 1 sendok teh per 5 pon berat badan setiap empat hingga enam jam.',
     createAt: 'Desember 2, 2022',
     sumber: 'https://hewania.com/cara-mengatasi-kucing-mencret/10936/',
-    img: '../images/pict-cat-health-3',
+    img: '../images/pict-cat-health-3.jpg',
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ const dataCatHealth = [
     desc_sub5: 'Scabies ditularkan lewat kontak langsung dengan hewan yang terinfeksi, jadi pemberian obat tetes kutu secara rutin dan juga management indoor untuk kucing kamu sangat disarankan. Apabila kamu menduga salah satu kucing kamu mengalami scabies, pisahkan dengan hewan lain dan selalu cuci tangan setelah bersentuhan dengan kucing kamu karena scabies memiliki tingkat penularan yang tinggi dan juga bisa menular ke manusia.',
     createAt: 'Oktober 27, 2022',
     sumber: 'https://hewania.com/cara-mengatasi-scabies-pada-kucing/10302/',
-    img: '../images/pict-cat-health-4',
+    img: '../images/pict-cat-health-4.jpg',
   },
   {
     id: 5,
