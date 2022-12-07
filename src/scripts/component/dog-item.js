@@ -52,7 +52,7 @@ class DogItem extends HTMLElement {
                   <img tabindex="0" class="post-item__thumbnail" src="${this._dog.image_link}" alt="${this._dog.name}">
                   <div tabindex="0" class="post-item__content">
                     <p tabindex="0" class="post-item__city">Children Friendly: ${this._dog.good_with_children}</p>
-                    <p tabindex="0" class="post-item__city">Strangers Friendly: ${this._dog.good_with_strangers}</p>
+                    <p tabindex="0" class="post-item__city">StrangersvFriendly: ${this._dog.good_with_strangers}</p>
                   </div>
                 </article>
               </div>

@@ -67,13 +67,6 @@ class CatSearch extends HTMLElement {
               }
             
           }
-
-          @media screen and (min-width: 375px){
-              .cat-search{
-               
-                margin: 0;
-              }
-          } 
         </style>
         <div class="cat-search">
             <input placeholder="Search the cats" id="searchElement" type="search">

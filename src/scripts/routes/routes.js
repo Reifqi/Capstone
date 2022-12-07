@@ -21,7 +21,6 @@ const routes = {
   '/lingkungan': Lingkungan,
   '/cattype': catType,
   '/dogtype': dogType,
-
 };
 
 export default routes;
