@@ -1,22 +1,16 @@
-import createDogHealthTemp from '../template/dog-health-template';
+import createCatHealthTemp from '../template/cat-health-template';
 
-<<<<<<< HEAD
-const dogHealth = {
+const catHealth = {
     async render() {
         return `
-    <div class='dog-health-page'></div>
+    <div class='cat-health-page'></div>
    `;
     },
 
     async afterRender() {
-        const dogHealthContainer = document.querySelector('.dog-health-page');
-        dogHealthContainer.innerHTML += createDogHealthTemp;
+        const catHealthContainer = document.querySelector('.cat-health-page');
+        catHealthContainer.innerHTML += createCatHealthTemp;
     },
-=======
-  async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
-  },
->>>>>>> 38f1cff11a4bf569a33e642e5cf0802430024eb3
 };
 
-export default dogHealth;
+export default catHealth;
