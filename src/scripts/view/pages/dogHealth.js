@@ -1,16 +1,16 @@
-import createCatHealthTemp from '../template/cat-health-template';
+import createDogHealthTemp from '../template/dog-health-template';
 
-const catHealth = {
+const dogHealth = {
     async render() {
         return `
-    <div class='cat-health-page'></div>
+    <div class='dog-health-page'></div>
    `;
     },
 
     async afterRender() {
-        const catHealthContainer = document.querySelector('.cat-health-page');
-        catHealthContainer.innerHTML += createCatHealthTemp;
+        const dogHealthContainer = document.querySelector('.dog-health-page');
+        dogHealthContainer.innerHTML += createDogHealthTemp;
     },
 };
 
-export default catHealth;
+export default dogHealth;
