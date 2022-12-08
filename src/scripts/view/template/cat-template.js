@@ -3,7 +3,7 @@ const createCatTemp1 = `
                 <div class="card cat-card-1">
                   <div class="card-body cat-body">
                     <h5 class="card-title">Kesehatan</h5>
-                    <p class="card-text cat-title">Dengan membuat kesehatan kucing terjaga maka akan membuat sang pemilik juga sehat dari ancaman penyakit. Halaman berikut akan berisi tentang segala informasi terhadap panduan untuk menjaga kesehatan kucing, tentu saja dilengkapi dengan pencegahannya</p>
+                    <p class="card-text cat-title">Dengan membuat kesehatan kucing terjaga maka akan membuat pemilik juga sehat dari ancaman penyakit. Halaman berikut akan berisi tentang segala informasi terhadap panduan untuk menjaga kesehatan kucing, tentu saja dilengkapi dengan pencegahannya</p>
                     <a href="#/catHealth" class="btn btn-primary">Detail Selengkapnya...</a>
                   </div>
                 </div>
