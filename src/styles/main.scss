@@ -57,12 +57,13 @@ main {
     min-height: 100%;
 }
 
-footer{
-    color: #fff;
-    margin-top: 2rem;
-}
-
-.footer-text{
+footer {
+    min-height: 56px;
     text-align: center;
-    margin: 1rem;
-}
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    color: #fff;
+    padding-top: 1rem;
+  }
