@@ -11,7 +11,7 @@ const About = {
             <h2 class='about-title_pet'>CarePet</h2>
           </div>
         </div>
-        <div class="about-text">
+        <div class="about-text_pet">
           <h3>What is CarePet..??</h3>
           <p class="about-desc">CarePet adalah sebuah aplikasi penyedia informasi untuk pemeliharaan binatang peliharaan khususnya anjing dan kucing di Indonesia. Saat ini informasi terkait cara pemeliharaan anjing dan kucing masih susah untuk didapatkan di Indonesia khususnya di pelosok Indonesia. Dengan adanya permasalahan tersebut (kurangnya informasi) kami mengusulkan untuk membuat aplikasi ini berbasis web agar bisa diakses dimana saja dan dengan tujuan untuk memberikan informasi kepada pemilik dan dengan tujuan agar binatang peliharaan terjaga dari segala penyakit dan memanjangkan umur si binatang peliharaan.</p>
         </div>

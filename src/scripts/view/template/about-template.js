@@ -1,22 +1,17 @@
 const createAboutTemp = (aboutData) => `
 ${aboutData.map((data) => `
 
-<div class="section">
-    <div class="container">
-        <div class="content-section">
-            <div class="title">
-                <h3>${data.nama}</h3>
-            </div>
-            <div class="content">
-                <h4>${data.asal}</h4>
+<section class="about">
+        <div class="about-main">
+            <img src="${data.image}" alt="foto diri">
+            <div class="about-text">
+                <h1>${data.nama}</h1>
+                <h5>${data.asal} (<span>CarePet</span>)</h5>
                 <p>${data.description}</p>
+                <a href="${data.href}" target="_blank">More</a>
             </div>
         </div>
-        <div class="image-section">
-            <img src='${data.image}'>
-        </div>
-    </div>
-</div>
+    </section>
     `).join(' ')}
 `;
 
