@@ -64,16 +64,17 @@
 
 .about {
     width: 100%;
-    padding: 78px 0px;
-    margin: 20px auto;
+    padding: 20px 0px;
+    margin: 20px 0 0 0;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgb(37, 51, 214);
 }
 
 .about img {
     height: auto;
-    width: 420px;
+    width: 60%;
     box-shadow: 0 4px 8px 0 rgb(37, 51, 214);
+    margin-right: 1rem;
 }
 
 .about-text {
@@ -140,13 +141,52 @@
 	.about-main{
         width: 80%;
         display: block;
-        flex-direction: column;
+        // flex-direction: column;
         align-items: center;
         margin:auto;
         padding-top:20px;
     }
 
+    .about-text{
+        text-align: start;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .about-text h1{
+        font-size: 2rem;
+    }
+
+    .about-text p{
+        font-size: 1rem;
+    }
+
     .about-page{
         display: block;
     }
+}
+
+@media screen and (max-width: 950px) {
+
+    .about-page{
+        flex-direction: column;
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 499px) {
+    .about-text p{
+        font-size: 1rem;
+    }
+
+    .about-text h5{
+        font-size: 1rem;
+    }
+
+    .about img{
+        width: 70%;
+    }
+
+  
 }

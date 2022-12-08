@@ -4,6 +4,7 @@ import createAboutTemp from '../template/about-template';
 const About = {
   async render() {
     return `
+    <div class='page-about'>
       <h2 tabindex="0" class="about-carepet">About CarePet</h2>
       <div class='about-page'>
         <div class='about-img'>
@@ -19,6 +20,7 @@ const About = {
 
       <h2 tabindex="0" class="about-carepet">About Us</h2>
       <div class="about-card"></div>
+      </div>
           `;
   },
 

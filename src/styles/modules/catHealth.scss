@@ -2,18 +2,18 @@ $midnight: #2c3e50;
 $clouds: #ecf0f1;
 
 // General
-h1 {
+.cat-health-page h1 {
   margin: 0;
   line-height: 2;
   text-align: center;
 }
 
-h2 {
+.cat-health-page h2 {
   margin: 0 0 .5em;
   font-weight: normal;
 }
 
-input {
+.cat-health-page input {
   position: absolute;
   opacity: 0;
   z-index: -1;
