@@ -2,15 +2,14 @@
  * latest
  */
 
-.latest {
+ .latest {
   width: 100%;
-  margin: 60px auto;
+
   text-align: center;
 }
 
 .latest__label {
   font-size: 40px;
-  font-weight: lighter;
 }
 
 .latest__label::after {
@@ -40,7 +39,6 @@
 
 .post-item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 50%;
   border-radius: 5px;
   overflow: hidden;
   margin: 10px;
@@ -82,10 +80,10 @@
 }
 
 .post-item__description {
-  margin-top: 16px;
   font-size: 18px;
   line-height: 1.5em;
   text-align: justify;
+  margin: 1rem;
 }
 
 p {
@@ -94,4 +92,17 @@ p {
 
 details {
   background-color: rgb(255, 255, 255);
+  margin: 1rem;
+  color: #0d6efd;
+}
+
+details p {
+  font-size: 18px;
+  line-height: 1.5em;
+  text-align: justify;
+  color: black;
+}
+
+details h4{
+  color: black;
 }
