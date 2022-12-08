@@ -1,6 +1,17 @@
-#CarePet    
-    Sebuah website yang menyediakan berbagai informasi untuk membantu anda merawat kucing dan anjing kesayangan anda
+# CarePet
 
-#Cara Menjalankan
-*Ketikan pada terminal 'npm install'
-*Kemudian jalankan dengan cara menuliskan perintah 'npm run start-dev'
+CarePet adalah sebuah website yang menyediakan berbagai informasi untuk membantu Anda dalam merawat kucing dan anjing kesayangan Anda dengan panduan yang terarah.
+
+## Cara Menjalankan
+
+-   Ketikkan pada terminal
+
+    ```
+    npm install
+    ```
+
+-   Jalankan dengan perintah
+    ```
+    npm run start-dev
+    ```
+
