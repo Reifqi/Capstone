@@ -1,20 +1,17 @@
 const createAboutTemp = (aboutData) => `
 ${aboutData.map((data) => `
-    <div class="card mb-3 pet-card" style="max-width: 540px;">
-        <div class="row g-0">
-            <div class="col-md-4 home-img">
-                <img src="${data.image}" class="img-fluid rounded-start" alt="adadef">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">${data.nama}</h5>
-                    <p>${data.asal}</p>
-                    <p class="card-text home-card-text"> ${data.description} </p>
-                    <a href="${data.href}" class="btn btn-primary">Detail Selengkapnya...</a>
-                </div>
+
+<section class="about">
+        <div class="about-main">
+            <img src="${data.image}" alt="foto diri">
+            <div class="about-text">
+                <h1>${data.nama}</h1>
+                <h5>${data.asal} (<span>CarePet</span>)</h5>
+                <p>${data.description}</p>
+                <a href="${data.href}" target="_blank">More</a>
             </div>
         </div>
-    </div>
+    </section>
     `).join(' ')}
 `;
 
