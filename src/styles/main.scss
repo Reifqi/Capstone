@@ -1,5 +1,11 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+@import './modules/about.scss';
+@import './modules/home.scss';
+@import './modules/cat.scss';
+@import './modules/dog.scss';
+@import './modules/lingkungan.scss';
+@import './modules//catHealth.scss';
 
 *{
     padding: 0;
@@ -41,12 +47,23 @@
     margin-right: 1rem;
 }
 
-footer{
-    color: #fff;
-    margin-top: 2rem;
+main {
+    padding: 32px;
+    flex: 1;
+  }
+  
+.mainContent {
+    margin: 0 auto;
+    min-height: 100%;
 }
 
-.footer-text{
+footer {
+    min-height: 56px;
     text-align: center;
-    margin: 1rem;
-}
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    color: #fff;
+    padding-top: 1rem;
+  }
