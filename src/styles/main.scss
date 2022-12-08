@@ -57,24 +57,13 @@ main {
     min-height: 100%;
 }
 
-.arkikel_suhu{
-    width: 100%;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.arkikel_suhu h2,h3{
-    font-weight: 500;
-    margin-top: 16px;
-    transition: 0.3s opacity;
-}
-
-footer{
-    color: #fff;
-    margin-top: 2rem;
-}
-
-.footer-text{
+footer {
+    min-height: 56px;
     text-align: center;
-    margin: 1rem;
-}
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    color: #fff;
+    padding-top: 1rem;
+  }

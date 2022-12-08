@@ -1,12 +1,15 @@
+import createDogHealthTemp from '../template/dog-health-template';
+
 const dogHealth = {
   async render() {
     return `
-          <h2>Health Page(Dog)</h2>
-        `;
+    <div class='dog-health-page'></div>
+   `;
   },
 
   async afterRender() {
-    // Fungsi ini akan dipanggil setelah render()
+    const dogHealthContainer = document.querySelector('.dog-health-page');
+    dogHealthContainer.innerHTML += createDogHealthTemp;
   },
 };
 
