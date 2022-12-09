@@ -67,6 +67,13 @@ class DogSearch extends HTMLElement {
                 }
               
             }
+
+            @media screen and (max-width: 375px){
+              .dog-search {
+                padding: 4px;
+                margin: 0;
+              }
+            }
           </style>
           <div class="dog-search">
               <input placeholder="Search the dogs" id="searchElement" type="search">
