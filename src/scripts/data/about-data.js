@@ -2,7 +2,7 @@ const aboutData = [
   {
     nama: 'M. Rifqi Maulana',
     asal: 'Aceh',
-    description: 'Front-End Web Development Enthusias',
+    description: 'Front-End Web Developer Enthusias',
     image: './images/rifqi.jpg',
     href: 'https://github.com/Reifqi',
   },
