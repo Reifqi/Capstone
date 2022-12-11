@@ -1,4 +1,3 @@
-import Detail from '../view/pages/detail';
 import Home from '../view/pages/home';
 import Cat from '../view/pages/cat';
 import Dog from '../view/pages/dog';
@@ -16,7 +15,6 @@ const routes = {
   '/cat': Cat,
   '/cathealth': catHealth,
   '/doghealth': dogHealth,
-  '/detail/:id': Detail,
   '/about': About,
   '/lingkungan': Lingkungan,
   '/cattype': catType,

@@ -3,7 +3,7 @@ const createDogTemp1 = `
                 <div class="card dog-card-1">
                   <div class="card-body">
                     <h5 class="card-title">Kesehatan</h5>
-                    <p class="card-text dog-title">Dengan membuat kesehatan anjing terjaga maka akan membuat sang pemilik juga sehat dari ancaman penyakit. Halaman berikut akan berisi tentang segala informasi terhadap panduan untuk menjaga kesehatan anjing, tentu saja dilengkapi dengan pencegahannya</p>
+                    <p class="card-text dog-title">Dengan membuat kesehatan kucing terjaga maka akan membuat pemilik juga sehat dari penyakit. Halaman ini akan berisi segala informasi terhadap panduan untuk menjaga kesehatan kucing, yang dilengkapi dengan pencegahannya.</p>
                     <a href="#/dogHealth" class="btn btn-primary">Detail Selengkapnya...</a>
                   </div>
                 </div>
